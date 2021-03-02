@@ -55,4 +55,4 @@ var title =  emoji +'『'+ City_ValidCheck(obj['province'])+'』';//+Area_check(
 var subtitle =  ISP_ValidCheck(obj['isp']) + " ➠ "+ obj['country'];
 var ip = obj['addr']; 
 var description = '服务商:'+obj['isp'] + '\n'+'定位: [' +obj["latitude"]+","+obj["longitude"]+"]"+ '\n' + 'IP:'+ obj['addr'];
-$done({title, subtitle, ip, description});
+$done({title, subtitle, ip});
